@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(144, 43, 226);
+    
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+    color: red;
+    display: none;
+}
+label{
+    margin-top: 40px;
+    font-size: 30px;
+}
+button{
+    width: 150px;
+    background-color: green;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+#allowed-age{
+    font-size: 20px;
+    background: green;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    display: none;
+    margin: auto;
+}
+#a-age,.u-age{
+    padding: 6px;
+}
+#un-allowed-age{
+    font-size: 20px;
+    background: red;
+    margin: auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    color:black;
+    display: none; 
+}

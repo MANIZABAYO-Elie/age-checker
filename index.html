@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age checker</title>
+</head>
+
+<body>
+    <div class="container">
+         <h1>Check your age Below</h1>
+         <label for="age">Date Of Birth</label>
+         <input type="date" name="date" placeholder="Enter date of birth" id="dob" >
+         <button  class="ageBtn" id="age" onclick="validateAge()">Check age</button>
+         <h2> Please Enter date of birth</h2>
+
+
+    </div>
+    <div id="allowed-age">
+        <h3>Congratulations!!</h3>
+         <p id="a-age">Now your age meets requirements , you can place a bet
+
+         </p>
+    </div>
+    <div id="un-allowed-age">
+        <h3>Warning!!!</h3>
+        <p id="un-age">You are not allowed to place a bet , you should have 18+ years
+            
+        </p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
