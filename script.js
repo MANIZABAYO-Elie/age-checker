@@ -14,8 +14,15 @@ function validateAge(){
     console.log(DateOfBirth)
     
     const month = today.getMonth()-DateOfBirth.getMonth()
-    const ageDifference = today.getFullYear() - DateOfBirth.getFullYear()
-    if (ageDifference >=18){
+    let ageDifference = today.getFullYear() - DateOfBirth.getFullYear()
+    const date = today.getDate()- DateOfBirth.getDate();
+    console.log(date)
+    
+    if (month<0 && date<0) {
+       return ageDifference--
+        
+    }
+    if (ageDifference >=18 ){
         allowedAgeMessage.style.display = "block"
     }else{
         unAllowedAgeMessage.style.display = "block"
